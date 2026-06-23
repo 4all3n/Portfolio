@@ -31,6 +31,19 @@ export function PortfolioSite() {
 
   useEffect(() => {
     setMounted(true);
+        // Reset scroll position to top (hero section) on fresh load / refresh
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    window.scrollTo(0, 0);
+    // Clear hash from URL on refresh to ensure starting from the hero section
+    if (window.location.hash) {
+      window.history.replaceState(
+        null,
+        "",
+        window.location.pathname + window.location.search
+      );
+    }
     const timer = window.setTimeout(() => setIntroVisible(false), 1800);
     return () => window.clearTimeout(timer);
   }, []);

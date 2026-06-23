@@ -48,7 +48,7 @@ export function Hero({ facts, highlights }: HeroProps) {
           className="space-y-4 md:space-y-6"
         >
           <h1 className="max-w-5xl text-4xl font-semibold leading-[0.95] tracking-[-0.04em] sm:text-6xl lg:text-7xl text-[color:var(--text)]">
-            Full Stack Intern.
+            Full Stack Developer
           </h1>
           <p className="max-w-2xl text-base leading-7 text-[color:var(--muted)] sm:text-xl sm:leading-8">
             Strong foundation in React, Python, and Django. Proficient in

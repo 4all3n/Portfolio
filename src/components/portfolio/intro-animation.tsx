@@ -51,15 +51,14 @@ export function IntroAnimation() {
           variants={introVariants}
           className="max-w-xl text-sm text-[color:var(--muted)] sm:text-base"
         >
-          Full-stack engineering, elevated with a premium front-end
-          experience.
+          Full-stack engineer, passionate about building scalable and efficient web applications. Skilled in React, Node.js, and cloud technologies.
         </motion.p>
         <motion.div
           variants={introVariants}
           className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-[color:var(--faint)]"
         >
           <span className="h-px w-10 bg-[color:var(--line-strong)]" />
-          Launching the experience
+          Loading portfolio
           <span className="h-px w-10 bg-[color:var(--line-strong)]" />
         </motion.div>
       </motion.div>

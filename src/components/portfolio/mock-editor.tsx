@@ -98,7 +98,7 @@ export function MockEditor() {
   );
 
   return (
-    <div className="mock-editor surface-card-strong relative w-full overflow-hidden rounded-2xl border border-[color:var(--line-strong)] shadow-2xl h-[420px] md:h-[520px] lg:h-[600px] flex flex-col">
+    <div className="mock-editor surface-card-strong relative w-full overflow-hidden rounded-2xl border border-[color:var(--line-strong)] shadow-2xl h-[450px] md:h-[520px] lg:h-[600px] flex flex-col">
       {/* Editor Header */}
       <div className="flex items-center justify-between border-b border-[color:var(--line)] bg-[color:var(--bg-soft)] px-4 py-3 shrink-0">
         <div className="flex gap-2">

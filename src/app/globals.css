@@ -143,6 +143,7 @@ a {
 
 .chip {
 	display: inline-flex;
+	width: fit-content;
 	align-items: center;
 	gap: 0.45rem;
 	border: 1px solid var(--line);
@@ -152,6 +153,11 @@ a {
 	background: rgba(255, 255, 255, 0.03);
 	font-size: 0.85rem;
 	transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.chip_skill{
+	width: 5.5rem;
+	align-items: center;
+	justify-content: center;
 }
 
 .chip:hover {

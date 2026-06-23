@@ -57,7 +57,7 @@ export function Skills({ skillGroups }: SkillsProps) {
                     {group.title}
                   </h3>
                 </div>
-                <span className="chip">{group.items.length} skills</span>
+                <span className="chip chip_skill">{group.items.length} skills</span>
               </div>
               <p className="mt-4 max-w-xl text-sm leading-7 text-[color:var(--muted)]">
                 {group.description}
